@@ -6,9 +6,12 @@ module.exports = {
     ],
     themeConfig: {
       sidebar: 'auto',
-      // logo: '/MacTree.ico',
+      logo: '/tree.png',
+      repo: 'https://github.com/zloyAltr/treensi_wiki',
+      repoLabel: 'GitHub',
+      editLinks: false,
       nav: [
-        { text: 'О чем речь', link: '/' },
+        { text: 'О чем речь', link: '/about.md' },
         { text: 'Система TreeNSI', 
         items: [
           {text: 'Описание TreeNSI', link: '/treensi/' },
