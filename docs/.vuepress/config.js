@@ -1,6 +1,12 @@
 module.exports = {
-    title: 'TreeNSI',
-    description: 'TreeNSI - Пример системы нормативно-справочной информации предприятия',
+  ga: 'UA-143005666-1',
+  locales: {
+    '/': {
+      lang: 'ru',
+      title: 'TreeNSI',
+      description: 'TreeNSI - Пример системы нормативно-справочной информации предприятия'
+    }
+  },
     head: [
       ['link', {rel: 'icon', type: "image/png", sizes: "16x16", href: '/logo.png'}]
     ],
