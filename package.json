@@ -9,9 +9,11 @@
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alex Davydov",
   "license": "ISC",
   "devDependencies": {
+    "@vuepress/plugin-google-analytics": "^1.0.2",
     "vuepress": "^1.0.2"
-  }
+  },
+  "dependencies": {}
 }

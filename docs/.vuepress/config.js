@@ -3,10 +3,10 @@ module.exports = {
     '/': {
       lang: 'ru',
       title: 'TreeNSI',
-      description: 'TreeNSI - Пример системы нормативно-справочной информации предприятия',
-      ga: 'UA-143005666-1'
-    }
+      description: 'TreeNSI - Пример системы нормативно-справочной информации предприятия'
+      }
   },
+  // ga: 'UA-143005666-1',
     head: [
       ['link', {rel: 'icon', type: "image/png", sizes: "16x16", href: '/logo.png'}]
     ],
@@ -33,5 +33,11 @@ module.exports = {
           '@pict': 'd:/Project/TreeNSI_wiki/docs/pict'
         }
       }
-    }
+    },
+    plugins: [
+      ['@vuepress/google-analytics',
+    {
+      'ga':'UA-143005666-1'
+    }]
+    ]
   }
