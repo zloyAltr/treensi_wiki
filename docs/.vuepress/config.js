@@ -1,10 +1,10 @@
 module.exports = {
-  ga: 'UA-143005666-1',
   locales: {
     '/': {
       lang: 'ru',
       title: 'TreeNSI',
-      description: 'TreeNSI - Пример системы нормативно-справочной информации предприятия'
+      description: 'TreeNSI - Пример системы нормативно-справочной информации предприятия',
+      ga: 'UA-143005666-1'
     }
   },
     head: [
